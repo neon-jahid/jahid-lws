@@ -1,3 +1,5 @@
+import Logo from '../assets/logo.svg';
+
 function Header() {
     return (
         <header className='fixed w-full'>
@@ -7,7 +9,7 @@ function Header() {
                         href='#'
                         className='flex items-center'>
                         <img
-                            src='./assets/logo.svg'
+                            src={Logo}
                             className='h-6 mr-3 sm:h-9'
                             alt='Landwind Logo'
                         />

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function airbnb() {
+function Airbnb() {
     return (
         <svg
             className='h-9 hover:text-gray-900 dark:hover:text-white'
@@ -17,4 +17,4 @@ function airbnb() {
     );
 }
 
-export default airbnb;
+export default Airbnb;
