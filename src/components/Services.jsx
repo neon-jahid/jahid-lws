@@ -24,6 +24,7 @@ function Services() {
                         img={FeatureImg1}
                     />
                     <Service
+                        className='flex flex-row-reverse'
                         Title='We invest in the world’s potential'
                         description='Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.'
                         l1='Dynamic reports and dashboards'
