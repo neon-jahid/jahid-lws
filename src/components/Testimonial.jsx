@@ -1,4 +1,5 @@
 import React from 'react';
+import Micheal from '../assets/avatar/michael-gouch.png';
 
 function Testimonial() {
     return (
@@ -24,7 +25,7 @@ function Testimonial() {
                     <figcaption class='flex items-center justify-center mt-6 space-x-3'>
                         <img
                             class='w-6 h-6 rounded-full'
-                            src='./assets/avatar/michael-gouch.png'
+                            src={Micheal}
                             alt='profile picture'
                         />
                         <div class='flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700'>
