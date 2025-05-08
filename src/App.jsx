@@ -7,7 +7,7 @@ import Testimonial from './components/Testimonial';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
 import Trial from './components/Trial';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
